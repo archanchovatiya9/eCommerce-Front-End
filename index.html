@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FashionAlchemy</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="validation.css" />
+    <style>
+      .section-title{
+        background-color: #bababa;
+        padding: 15px;
+      }
+    
+    .nav-icon img {
+      width: 24px; 
+      height: 24px; 
+    }
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    .nav-icons {
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav-icons a {
+      margin-right: 30px;
+    }
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to FashionAlchemy</h1>
+      <br />
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Products</a>
+            <ul class="dropdown-content">
+              <li class="active"><a href="products.html">Men's Collection</a></li>
+              <li><a href="products.html">Women's Collection</a></li>
+              <li><a href="products.html">Childrenswear</a></li>
+              <li><a href="products.html">Other Collection</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="account.html">Your account</a></li>
+        </ul>
+          <div class="nav-icons">
+          <a href="#" class="nav-icon"><img src="Images/search.png" alt="Search Icon" /></a>
+          <a href="#" class="nav-icon"><img src="Images/cart.png" alt="Cart Icon" /></a>
+          <a href="#" class="nav-icon"><img src="Images/user.png" alt="Account Icon" /></a>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Featured Products</h2>
+      <div class="product">
+        <img src="Images/suit.jpg" alt="Product 1" />
+        <h3>Suit for men</h3>
+        <p>
+          A sophisticated blue suit for men excuding style and confidence for
+          any formal occasion.
+        </p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/shirt1.jpg" alt="Product 2" />
+        <h3>Regular shirt for men</h3>
+        <p>Bold and stylish blue and white Chex shirt for men</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/dress1.jpg" alt="Product 3" />
+        <h3>Women Summer Boho Midi Dresses</h3>
+        <p>2023 Floral Beach Flowy A Line Ruffle Hem Casual Dress with Belt</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Images/towel.jpg" alt="Product 4" />
+        <h3>Turkish Cotton Bathrobe</h3>
+        <p>
+          Boys Girls Bathrobe Soft Towel Hooded Robe 100% Terry cloth Turkish
+          Cotton Bathrobe
+        </p>
+        <button>Add to Cart</button>
+      </div>
+
+   
+      <h2 class="section-title">Seasonal Products</h2>
+    <div class="product">
+      <img src="Images/women seasonal.webp" alt="Seasonal Product 1" />
+      <h3>Seasonal Dress Collection</h3>
+      <p>Discover our latest seasonal dresses for women.</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="Images/men seasonal.webp" alt="Seasonal Product 2" />
+      <h3>Men's Winter Collection</h3>
+      <p>Stay warm and stylish with our winter collection for men.</p>
+      <button>Add to Cart</button>
+    </div>
+
+
+ 
+    <h2 class="section-title">Special Discount</h2>
+    <div class="product">
+      <img src="Images/men discount.webp" alt="Discount Product 1" />
+      <h3>Summer Sale</h3>
+      <p>Get up to 50% off on selected items in our summer sale.</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="Images/women discount.webp" alt="Discount Product 2" />
+      <h3>Clearance Sale</h3>
+      <p>Last chance to grab amazing deals in our clearance sale.</p>
+      <button>Add to Cart</button>
+    </div>
+    
+  </section>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 FashionAlchemy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+
+
+input:required:invalid,
+textarea:required:invalid {
+  border: 1px solid red;
+}
+
+input:required:valid,
+textarea:required:valid {
+  border: 1px solid green;
+}
